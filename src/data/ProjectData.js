@@ -14,7 +14,7 @@ export const ProjectList = [
     description: "An online shopping website, based on spain.",
     tech_stack: "HTML, JavaScrip, CSS, LocalStorage",
     github_url: "https://github.com/AvdheshPal/Pull-Bear",
-    demo_url: "https://your_project_demo_link/",
+    demo_url: "https://pull-bear-avdheshpal.vercel.app/",
   },
   {
     img: "https://user-images.githubusercontent.com/91539305/147107410-e2cf1961-f777-4e33-8a49-586a9a612cb5.gif",
