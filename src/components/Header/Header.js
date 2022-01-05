@@ -5,7 +5,7 @@ const Header = ({ toggle }) => {
   return (
     <div className="Container">
       <Nav>
-        <Logo to="/">
+        <Logo>
             {/* <img src="https://cdn-icons.flaticon.com/png/512/3541/premium/3541180.png?token=exp=1641413231~hmac=d8344a1444cdcff5096e11e03e7e93a2"/> */}
             <img src="https://miro.medium.com/max/512/1*Ug8q34qzjIz-zuai3TNijg.png"/>
             {/* <img src="https://cdn-icons-png.flaticon.com/512/753/753352.png"/> */}
