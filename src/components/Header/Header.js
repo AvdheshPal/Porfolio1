@@ -7,7 +7,7 @@ const Header = ({ toggle }) => {
       <Nav>
         <Logo to="/">
             {/* <img src="https://cdn-icons.flaticon.com/png/512/3541/premium/3541180.png?token=exp=1641413231~hmac=d8344a1444cdcff5096e11e03e7e93a2"/> */}
-            <img src="https://cdn-icons.flaticon.com/png/512/5342/premium/5342835.png?token=exp=1641414200~hmac=25a6b758c3719abbcfc6051094e2da88"/>
+            <img src="https://miro.medium.com/max/512/1*Ug8q34qzjIz-zuai3TNijg.png"/>
             {/* <img src="https://cdn-icons-png.flaticon.com/512/753/753352.png"/> */}
             {/* <img src="https://img.icons8.com/nolan/344/github.png"/> */}
         </Logo>
