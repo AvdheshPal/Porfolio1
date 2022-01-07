@@ -6,7 +6,7 @@ export const ProjectList = [
     description: "Udemy is E-Commerce website, Provide online study material and courses.",
     tech_stack: "Html, Css, Javascript Express node.js Mongoose MongoDB Ejs",
     github_url: "https://github.com/Sachi4496/Udemy-Clone-Backend",
-    demo_url: "https://your_project_demo_link",
+    demo_url: "https://aqueous-fortress-78543.herokuapp.com/",
   },
   {
     img: "https://github.com/AvdheshPal/Pull-Bear/raw/main/image.gif",
@@ -23,7 +23,7 @@ export const ProjectList = [
       "Udemy is E-Commerce website, Provide online study material and courses.",
     tech_stack: "Html, Css, Javascript, Tailwind, Localstorage , Mock-Sever",
     github_url: "https://github.com/Sachi4496/Udemy-Clone",
-    demo_url: "https://your_project_demo_link",
+    demo_url: "https://aqueous-fortress-78543.herokuapp.com/",
   }
 ];
 
