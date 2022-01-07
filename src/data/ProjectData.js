@@ -9,7 +9,7 @@ export const ProjectList = [
     demo_url: "https://your_project_demo_link",
   },
   {
-    img: "https://miro.medium.com/max/700/1*bDJWIfUrMdV2i-fjDQOvQw.jpeg",
+    img: "https://github.com/AvdheshPal/Pull-Bear/raw/main/image.gif",
     title: "Pull & Bear",
     description: "An online shopping website, based on spain.",
     tech_stack: "HTML, JavaScrip, CSS, LocalStorage",
