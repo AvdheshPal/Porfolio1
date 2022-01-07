@@ -6,7 +6,7 @@ function TypeWriter() {
     <Typewriter
       options={{
         strings: [
-          "Hi, I am Avdhesh Pal",
+          "Namaste 🙏🏻, I am Avdhesh Pal",
         //   "MERN Stack Developer",
         ],
         autoStart: true,
