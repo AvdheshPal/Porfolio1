@@ -1,6 +1,4 @@
 import React from "react";
-import { stackList } from "../../data/ProjectData";
-import photo from '../../Aui.png'
 import {
   Image,
   Technologies,
@@ -15,11 +13,11 @@ function About() {
       <div className="Container">
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
-          <Image
+          {/* <Image
             src={photo}
             alt="man-svgrepo"
             className="smimg"
-          />
+          /> */}
           <div className="AboutBio">
             Hello! My name is <strong>Avdhesh Pal</strong> .
           </div>
@@ -30,14 +28,7 @@ function About() {
 
             Currently I am a student at Masai School.
           </div>
-          <Technologies>
-            {stackList.map((stack, index) => (
-              <Tech key={index} className="tech">
-                <TechImg src={stack.img} alt={stack.name} />
-                <TechName>{stack.name}</TechName>
-              </Tech>
-            ))}
-          </Technologies>
+          
         </div>
       </div>
     </ContactWrapper>

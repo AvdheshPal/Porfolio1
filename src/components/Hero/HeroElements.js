@@ -28,7 +28,6 @@ export const HeroContainer = styled.div`
 export const HeroWrapper = styled.div`
   display: flex;
   flex-direction: row;
-
   @media screen and (max-width: 992px) {
     flex-direction: column;
   }
@@ -71,8 +70,11 @@ export const HeroLeft = styled.div`
 
 export const HeroRight = styled.div`
   flex: 1;
-  justify-content: center;
+  justify-content: flex-end;
   display: flex;
+  @media screen and (max-width: 992px) {
+    justify-content: center;
+  }
 `;
 
 export const Image = styled.img`

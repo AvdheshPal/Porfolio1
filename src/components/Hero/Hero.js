@@ -28,7 +28,7 @@ function Hero() {
             <h1>
           <TypeWriter/>
             </h1>
-            <h5>Full Stack Developer</h5>
+            <h5> Aspiring Full Stack Developer</h5>
             <p>
               I design and code beautifully simple things, and I love what I do.
             </p>

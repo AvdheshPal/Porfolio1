@@ -32,6 +32,7 @@ function Footer() {
           >
             AvdheshPal
           </a>{" "}
+      <div> Mo.&nbsp; +918565802569</div>
         </span>
       </div>
     </FooterSection>
