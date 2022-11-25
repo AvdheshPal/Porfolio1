@@ -1,8 +1,17 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    img: "https://miro.medium.com/max/1200/1*5e7U9_5StBD62ciAn64nkg.gif",
+    title: "Mento Clone",
+    description:
+      "Mento is an online alternative education platform where India’s best industry experts teach you.",
+    tech_stack: "React.js, Redux, Material UI, MongoDB, Tailwind, Express, Mongoose, Axios.",
+    github_url: "https://github.com/aadityaneve/mento-front-end.git",
+    demo_url: "https://aadityaneve.github.io/mento-front-end",
+  },
+  {
     img: "https://user-images.githubusercontent.com/91539305/147107410-e2cf1961-f777-4e33-8a49-586a9a612cb5.gif",
-    title: "Udemy Clone - Backend",
+    title: "Udemy Clone",
     description: "Udemy is an online learning and teaching marketplace with too many courses.",
     tech_stack: "Express node.js MongoDB Mongoose Ejs Tailwind JavaScript",
     github_url: "https://github.com/Sachi4496/Udemy-Clone-Backend",
@@ -15,15 +24,6 @@ export const ProjectList = [
     tech_stack: "HTML, JavaScrip, CSS, LocalStorage",
     github_url: "https://github.com/AvdheshPal/Pull-Bear",
     demo_url: "https://pull-bear-avdheshpal.vercel.app/",
-  },
-  {
-    img: "https://user-images.githubusercontent.com/91539305/147107410-e2cf1961-f777-4e33-8a49-586a9a612cb5.gif",
-    title: "Udemy Clone",
-    description:
-      "Udemy is an online learning and teaching marketplace with too many courses.",
-    tech_stack: "HTML, CSS, JavaScript, Mock-Sever, Tailwind, Localstorage.",
-    github_url: "https://github.com/Sachi4496/Udemy-Clone",
-    demo_url: "https://aqueous-fortress-78543.herokuapp.com/",
   }
 ];
 
