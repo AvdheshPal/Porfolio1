@@ -1,3 +1,22 @@
+import Mongodb from "../data/icons/mongodb-icon.png";
+import Express from "../data/icons/express-js-icon.png";
+import React from "../data/icons/react-js-icon.png";
+import Angular from "../data/icons/angular-icon.png";
+import Bootstrap from "../data/icons/bootstrap-5-logo-icon.png";
+import Css from "../data/icons/css-icon.png";
+import Git from "../data/icons/git-icon.png";
+import HTML from "../data/icons/html-icon.png";
+import Javascript from "../data/icons/javascript-programming-language-icon.png";
+import Mysql from "../data/icons/mysql-icon.png";
+import Next from "../data/icons/nextjs-icon.png";
+import Node from "../data/icons/node-js-icon.png";
+import NPM from "../data/icons/npm-icon.png";
+import Postman from "../data/icons/postman-icon.png";
+import Redux from "../data/icons/redux-icon.png";
+import Tailwind from "../data/icons/tailwind-css-icon.png";
+import Typescript from "../data/icons/typescript-programming-language-icon.png";
+
+
 // --------------------------------------- Project List
 export const ProjectList = [
   {
@@ -31,59 +50,63 @@ export const ProjectList = [
 
 export const stackList = [
   {
-    img: "https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/mongodb.svg",
+    img: Mongodb,
     name: "MongoDB",
   },
   {
-    img: "https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/expressjs.svg",
+    img: Express,
     name: "Express",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/react.svg",
+    img: React,
     name: "ReactJS",
   },
   {
-    img: "https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/node-js.svg",
+    img: Angular,
+    name: "Angular",
+  },
+  {
+    img: Node,
     name: "Node.js",
   },
   {
-    img: "https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/npm.svg",
+    img: NPM,
     name: "NPM",
   },
   {
-    img: "https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/redux.svg",
+    img: Redux,
     name: "Redux",
   },
   {
-    img: "https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/nextjs.svg",
+    img: Next,
     name: "Next.js",
   },
   {
-    img: "https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/postman.svg",
+    img: Postman,
     name: "Postman",
   },
   {
-    img: "https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/typescript-programming-language.svg",
+    img: Typescript,
     name: "Typescript",
   },
   {
-    img: "https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/tailwind-css.svg",
+    img: Tailwind,
     name: "Tailwind",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/git.svg",
+    img: Git,
     name: "Git",
   },
     {
-      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/html5.svg",
+      img: HTML,
       name: "HTML",
     },
     {
-      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/css3.svg",
+      img: Css,
       name: "CSS",
     },
     {
-      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/javascript.svg",
+      img: Javascript,
       name: "JavaScript",
     },
 ];
