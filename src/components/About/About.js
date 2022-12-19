@@ -26,7 +26,6 @@ function About() {
 
             When I am not smashing the keyboard, you will find me playing pubg, reading or watching netflix.
 
-            Currently I am a student at Masai School.
           </div>
           
         </div>
