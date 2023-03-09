@@ -1,5 +1,6 @@
 import React from "react";
-import ProjectCard from "./ProjectCard/ProjectCard";
+import ProjectCard from "../Projects/ProjectCard/ProjectCard";
+import { ProjectList } from "../../data/ProjectData";
 function Projects() {
   return (
     <>
@@ -23,7 +24,7 @@ function Projects() {
       <div className="ProjectWrapper" id="projects">
         <div className="Container">
           <div className="SectionTitle">Projects</div>
-          <ProjectCard />
+          <ProjectCard items={ProjectList}/>
         </div>
       </div>
     </>

@@ -15,12 +15,15 @@ import Postman from "../data/icons/postman-icon.png";
 import Redux from "../data/icons/redux-icon.png";
 import Tailwind from "../data/icons/tailwind-css-icon.png";
 import Typescript from "../data/icons/typescript-programming-language-icon.png";
+import Mento from '../data/icons/Mento.gif';
+import Udemy from '../data/icons/Udemy.gif'
+import PullandBear from '../data/icons/PullandBear.gif';
 
 
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "https://miro.medium.com/max/1200/1*5e7U9_5StBD62ciAn64nkg.gif",
+    img: Mento,
     title: "Mento Clone",
     description:
       "Mento is an online alternative education platform where India’s best industry experts teach you.",
@@ -29,15 +32,15 @@ export const ProjectList = [
     demo_url: "https://aadityaneve.github.io/mento-front-end",
   },
   {
-    img: "https://user-images.githubusercontent.com/91539305/147107410-e2cf1961-f777-4e33-8a49-586a9a612cb5.gif",
+    img: Udemy,
     title: "Udemy Clone",
     description: "Udemy is an online learning and teaching marketplace with too many courses.",
     tech_stack: "Express node.js MongoDB Mongoose Ejs Tailwind JavaScript",
     github_url: "https://github.com/Sachi4496/Udemy-Clone-Backend",
-    demo_url: "https://aqueous-fortress-78543.herokuapp.com/",
+    demo_url: "https://udemy-backend-8qgk.onrender.com/",
   },
   {
-    img: "https://github.com/AvdheshPal/Pull-Bear/raw/main/image.gif",
+    img: PullandBear,
     title: "Pull & Bear",
     description: "Pull&Bear is a Spanish clothing and accessories retailer based in Narón, Galicia",
     tech_stack: "HTML, JavaScrip, CSS, LocalStorage",

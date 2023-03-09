@@ -72,6 +72,14 @@ function Dropdown({ isOpen, toggle }) {
         <NavLink
           onClick={toggle}
           className="menu-item"
+          to="miniProjects"
+          smooth={true}
+        >
+          Mini Projects
+        </NavLink>
+        <NavLink
+          onClick={toggle}
+          className="menu-item"
           to="skills"
           smooth={true}
         >

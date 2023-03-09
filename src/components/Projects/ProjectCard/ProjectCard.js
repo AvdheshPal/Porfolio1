@@ -1,5 +1,4 @@
 import React from "react";
-import { ProjectList } from "../../../data/ProjectData";
 import {
   Card,
   CardLeft,
@@ -7,10 +6,10 @@ import {
   Stack,
   BtnGroup,
 } from "./ProjectCardElements";
-function ProjectCard() {
+function ProjectCard({items}) {
   return (
     <>
-      {ProjectList.map((list, index) => (
+      {items.map((list, index) => (
         <Card key={index}>
           <CardLeft>
             <img src={list.img} alt={list.name} />
