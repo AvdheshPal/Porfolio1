@@ -23,7 +23,7 @@ function Hero() {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Header toggle={toggle} />
       <HeroContainer>
-        <HeroWrapper> 
+        <HeroWrapper>  
           <HeroLeft>
             <h1>
           <TypeWriter/>
