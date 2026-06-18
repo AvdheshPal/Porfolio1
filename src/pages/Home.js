@@ -12,7 +12,6 @@ function Home() {
     <>
       <Hero />
       <Projects />
-      <MiniProjects />
       <About />
       <Skills/>
       <Contact />

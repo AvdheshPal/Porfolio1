@@ -21,6 +21,10 @@ function ProjectCard({items}) {
               <span className="stackTitle">Tech Stack -</span>
               <span className="tags">{list.tech_stack}</span>
             </Stack>
+            <Stack>
+              <span className="stackTitle">Date -</span>
+              <span className="tags">{list.date}</span>
+            </Stack>
             <BtnGroup>
               <a
                 className="btn btn2 SecondarBtn"
