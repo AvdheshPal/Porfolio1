@@ -23,7 +23,7 @@ export const Tech = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  place-content: space-between;
+  place-content: end;
   max-width: 100px;
   min-width: 100px;
   margin-bottom: 2rem;

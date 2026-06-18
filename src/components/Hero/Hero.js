@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
-import photo from '../../ui.png'
-import {TypeWriter} from '../typescript/typescript'
+import { TypeWriter } from '../typescript/typescript'
 import {
   HeroContainer,
   HeroWrapper,
@@ -12,6 +11,8 @@ import {
   ScrollDown,
   ScrollLink,
 } from "./HeroElements";
+import photo from "../../Assets/pic-squar.png";
+
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -23,10 +24,10 @@ function Hero() {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Header toggle={toggle} />
       <HeroContainer>
-        <HeroWrapper>  
+        <HeroWrapper>
           <HeroLeft>
             <h1>
-          <TypeWriter/>
+              <TypeWriter />
             </h1>
             <h5>Full Stack Developer</h5>
             <p>
@@ -44,10 +45,9 @@ function Hero() {
         <ScrollDown to="projects">
           <ScrollLink>
             Scroll down
-            <img
-              src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/scroll-down.svg"
-              alt="scroll-down"
-            />
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25 12 21m0 0-3.75-3.75M12 21V3" />
+            </svg>
           </ScrollLink>
         </ScrollDown>
       </HeroContainer>

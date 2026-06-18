@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../Projects/ProjectCard/ProjectCard";
-import { ProjectList } from "../../data/ProjectData";
+import { ProjectList, PersonalProjectList } from "../../data/ProjectData";
 function Projects() {
   return (
     <>
@@ -21,10 +21,16 @@ function Projects() {
           transform="rotate(-180 720 200)"
         ></path>
       </svg>
-      <div className="ProjectWrapper" id="projects">
+      <div className="ProjectWrapper" style={{ marginBottom: "10rem" }} id="projects">
         <div className="Container">
-          <div className="SectionTitle">Projects</div>
-          <ProjectCard items={ProjectList}/>
+          <div className="SectionTitle">Personal Projects</div>
+          <ProjectCard items={PersonalProjectList} />
+        </div>
+      </div>
+      <div className="ProjectWrapper" >
+        <div className="Container">
+          <div className="SectionTitle">Collage Projects</div>
+          <ProjectCard items={ProjectList} />
         </div>
       </div>
     </>

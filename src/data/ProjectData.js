@@ -18,6 +18,29 @@ import Typescript from "../data/icons/typescript-programming-language-icon.png";
 import Mento from '../data/icons/Mento.gif';
 import Udemy from '../data/icons/Udemy.gif'
 import PullandBear from '../data/icons/PullandBear.gif';
+import PredictHealth from '../data/icons/predict-health.gif';
+import Python from '../data/icons/python-icon.png';
+import FastAPI from '../data/icons/fastapi-icon.png';
+import Docker from '../data/icons/docker-icon.png';
+import GCP from '../data/icons/gcp-icon.png';
+import LLM from '../data/icons/llm-icon.png';
+import langchain from '../data/icons/langchain-icon.png';
+import pinecone from '../data/icons/pinecone-icon.png';
+import PostgreSQL from '../data/icons/postgre-icon.png';
+
+
+export const PersonalProjectList = [
+  {
+    img: PredictHealth,
+    title: "Predict Health",
+    description:
+      "AI-powered health risk assessment platform that predicts diabetes and heart disease risks using machine learning and clinical data analysis",
+    tech_stack: "React.js, Python, FastAPI, PostgreSQL, Docker",
+    github_url: "https://github.com/AvdheshPal/PredictHealth.git",
+    demo_url: "https://predict-health-ochre.vercel.app/",
+    date: "May 2026",
+  },
+]
 
 
 // --------------------------------------- Project List
@@ -30,6 +53,7 @@ export const ProjectList = [
     tech_stack: "React.js, Redux, Material UI, MongoDB, Tailwind, Express, Mongoose, Axios.",
     github_url: "https://github.com/aadityaneve/mento-front-end.git",
     demo_url: "https://aadityaneve.github.io/mento-front-end",
+    date: "Jan 2022",
   },
   {
     img: Udemy,
@@ -38,6 +62,7 @@ export const ProjectList = [
     tech_stack: "Express node.js MongoDB Mongoose Ejs Tailwind JavaScript",
     github_url: "https://github.com/Sachi4496/Udemy-Clone-Backend",
     demo_url: "https://udemy-backend-8qgk.onrender.com/",
+    date: "jan 2022",
   },
   {
     img: PullandBear,
@@ -46,12 +71,21 @@ export const ProjectList = [
     tech_stack: "HTML, JavaScrip, CSS, LocalStorage",
     github_url: "https://github.com/AvdheshPal/Pull-Bear",
     demo_url: "https://pull-bear-avdheshpal.vercel.app/",
+    date: "dec 2021",
   }
 ];
 
 // --------------------------------------- Skills
 
 export const stackList = [
+  {
+    img: React,
+    name: "ReactJS",
+  },
+  {
+    img: Node,
+    name: "Node.js",
+  },
   {
     img: Mongodb,
     name: "MongoDB",
@@ -61,28 +95,56 @@ export const stackList = [
     name: "Express",
   },
   {
-    img: React,
-    name: "ReactJS",
-  },
-  {
-    img: Angular,
-    name: "Angular",
-  },
-  {
-    img: Node,
-    name: "Node.js",
-  },
-  {
-    img: NPM,
-    name: "NPM",
+    img: Next,
+    name: "Next.js",
   },
   {
     img: Redux,
     name: "Redux",
   },
   {
-    img: Next,
-    name: "Next.js",
+    img: Python,
+    name: "Python",
+  },
+  {
+    img: FastAPI,
+    name: "FastAPI",
+  },
+  {
+    img: Mysql,
+    name: "MySQL",
+  },
+  {
+    img: PostgreSQL,
+    name: "PostgreSQL",
+  },
+  {
+    img: Docker,
+    name: "Docker",
+  },
+  {
+    img: GCP,
+    name: "GCP",
+  },
+  {
+    img: LLM,
+    name: "LLM",
+  },
+  {
+    img: langchain,
+    name: "Langchain",
+  },
+  {
+    img: pinecone,
+    name: "Pinecone",
+  },
+  {
+    img: Angular,
+    name: "Angular",
+  },
+  {
+    img: NPM,
+    name: "NPM",
   },
   {
     img: Postman,
@@ -100,16 +162,16 @@ export const stackList = [
     img: Git,
     name: "Git",
   },
-    {
-      img: HTML,
-      name: "HTML",
-    },
-    {
-      img: Css,
-      name: "CSS",
-    },
-    {
-      img: Javascript,
-      name: "JavaScript",
-    },
+  {
+    img: HTML,
+    name: "HTML",
+  },
+  {
+    img: Css,
+    name: "CSS",
+  },
+  {
+    img: Javascript,
+    name: "JavaScript",
+  },
 ];
