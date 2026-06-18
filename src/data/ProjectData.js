@@ -27,6 +27,7 @@ import LLM from '../data/icons/llm-icon.png';
 import langchain from '../data/icons/langchain-icon.png';
 import pinecone from '../data/icons/pinecone-icon.png';
 import PostgreSQL from '../data/icons/postgre-icon.png';
+import ETAPlay from '../data/icons/eta-play.gif';
 
 
 export const PersonalProjectList = [
@@ -45,6 +46,16 @@ export const PersonalProjectList = [
 
 // --------------------------------------- Project List
 export const ProjectList = [
+  {
+    img: ETAPlay,
+    title: "ETA Playground",
+    description:
+      "A live HTML templating sandbox for testing Eta render logic with dynamic data.",
+    tech_stack: "React.js, Redux, Material UI, Tailwind,",
+    // github_url: "https://github.com/aadityaneve/mento-front-end.git",
+    demo_url: "https://eta-playground.vercel.app/",
+    date: "Jan 2022",
+  },
   {
     img: Mento,
     title: "Mento Clone",
